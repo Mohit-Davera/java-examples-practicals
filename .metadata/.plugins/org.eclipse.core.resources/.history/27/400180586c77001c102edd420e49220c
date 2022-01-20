@@ -1,0 +1,9 @@
+package com.simformsolutions.practical.abstraction;
+
+public interface Loan
+{ 
+	public static final double INTEREST;
+	void interestShow();
+	void changeInterest(double f);
+  
+} 

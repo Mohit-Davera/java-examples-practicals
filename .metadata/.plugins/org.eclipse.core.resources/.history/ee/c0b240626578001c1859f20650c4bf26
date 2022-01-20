@@ -1,0 +1,17 @@
+package com.simformsolutions.practicals.thread;
+
+//Driver Class Which Invokes Threads
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Name     ID Priority");
+		int n = 4;
+        for (int i = 0; i < n; i++) {      	
+            Thread object = new Thread(new ThreadImplements());
+            object.setPriority(1+ (int)Math.random()*20);
+            object.start();
+        }
+	}
+}
+

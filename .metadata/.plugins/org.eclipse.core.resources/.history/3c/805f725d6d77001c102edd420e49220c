@@ -1,0 +1,10 @@
+package com.simformsolutions.practical.abstraction;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Loan l = new HomeLoan();
+		l.changeInterest(8);
+		l.interestShow();
+	}
+}

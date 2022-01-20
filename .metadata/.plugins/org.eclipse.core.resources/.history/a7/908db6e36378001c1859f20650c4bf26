@@ -1,0 +1,9 @@
+package com.simformsolutions.practicals.thread;
+
+public class ThreadImplements  implements new Runnable() {
+	public void run() {
+		
+	}
+}{
+
+}

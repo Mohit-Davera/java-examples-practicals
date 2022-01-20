@@ -1,0 +1,14 @@
+package com.simformsolutions.abstraction;
+
+abstract class human {
+	void intro() {
+		System.out.println("Human");
+	}
+}
+
+public class Main {
+	public static void main(String[] args)
+	{
+	
+	}
+}

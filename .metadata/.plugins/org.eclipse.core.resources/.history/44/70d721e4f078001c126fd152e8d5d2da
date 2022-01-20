@@ -1,0 +1,12 @@
+package com.simformsolutions.practicals.concurrency;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+
+		ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(5);
+
+	}
+
+}

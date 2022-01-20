@@ -1,0 +1,21 @@
+package com.simformsolutions.practicals.overriding;
+
+public class Animal {
+	static void eat() {
+		System.out.println("animal eating");
+	}
+}
+
+class Dog extends Animal {
+	public static void eat() {
+		System.out.println("dog eating");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Dog.eat();
+	}
+
+}
+

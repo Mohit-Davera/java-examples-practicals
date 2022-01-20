@@ -1,0 +1,25 @@
+package com.simformsolutions.practicals.thread;
+
+//Driver Class Which Invokes Threads
+public class Main {
+
+	public static void main(String[] args) {
+
+		ThreadExtend thOne = new ThreadExtend();
+		ThreadExtend thTwo = new ThreadExtend();
+		ThreadExtend thThree = new ThreadExtend();
+		ThreadExtend thFour = new ThreadExtend();
+		
+		int n = 4; // Number of threads
+        for (int i = 0; i < n; i++) {
+            Thread object
+                = new Thread(new ThreadExtend());
+            object.start();
+        }
+		
+		System.out.println("Name     ID Priority");
+		
+	}
+
+}
+

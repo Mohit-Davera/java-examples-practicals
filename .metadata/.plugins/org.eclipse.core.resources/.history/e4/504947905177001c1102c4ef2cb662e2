@@ -1,0 +1,11 @@
+package com.simformsolutions.practicals.stringb;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String greet = "Hello World";
+		StringBuffer sf = new StringBuffer("Java Is OOP Language");
+		StringBuilder sb = new StringBuilder("Public Static Void Main");
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.simformsolutions.practical.comparable;
+
+public class Employee implements Comparable<Employee> {
+	public int E_id;
+	public int salary;
+	public String name;
+	
+	public Employee(String name, int e_id, int salary) {
+		this.name = name;
+		this.e_id= gpa;
+		this.salary= salary;
+	}
+	
+}

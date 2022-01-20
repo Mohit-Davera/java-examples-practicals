@@ -1,0 +1,10 @@
+package com.simformsolutions.practicals.concurrency;
+
+import java.util.Date;
+public class Task implements Runnable {
+	@Override
+	public void run() {
+		System.out.println(Thread);
+		
+	}
+}

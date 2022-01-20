@@ -1,0 +1,10 @@
+package com.simformsolutions.practicals.concurrency;
+
+import java.util.concurrent.TimeUnit;
+public class Task implements Runnable {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,18 @@
+package com.simformsolutions.practicals.lambda;
+
+interface Writer {
+	public void write(String name);
+}
+
+public class Main implements Writer {
+
+	public static void main(String[] args) {
+		name = "Mohit";
+		
+		Writer w = name -> {
+
+				System.out.println("Hello "+name);
+		}
+	}
+
+}

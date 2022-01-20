@@ -1,0 +1,9 @@
+package com.simformsolutions.practical.abstraction;
+
+public class HomeLoan implements Loan{
+	@Override
+	public void interestShow() {
+		System.out.println(INTEREST);
+	}
+	public void changeInterest()
+}

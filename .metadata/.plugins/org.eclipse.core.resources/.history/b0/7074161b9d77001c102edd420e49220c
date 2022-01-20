@@ -1,0 +1,23 @@
+package com.simformsolutions.practical.comparable;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		Employee e1 = new Employee("ABC", 9, 101);
+		Employee e2 = new Employee("XYZ", 8, 102);
+		Employee e3 = new Employee("PQR", 8, 102);
+		Employee e4 = new Employee("JKL", 8, 102);
+		
+		int comparisonResult = s1.compareTo(s2);
+		
+		if(comparisonResult > 0)
+			System.out.println(s1.getName() + " has higher GPA");
+		
+		else if(comparisonResult < 0)
+			System.out.println(s2.getName() + " has higher GPA");
+		
+		else
+			System.out.println(s1.getName() + " and "+ s2.getName() + " have same GPA");
+	}
+}

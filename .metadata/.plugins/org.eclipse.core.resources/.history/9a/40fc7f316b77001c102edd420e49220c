@@ -1,0 +1,3 @@
+package com.simformsolutions.practical.abstraction;
+
+public class HomeLoan implements Loan

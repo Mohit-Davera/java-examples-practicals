@@ -1,0 +1,17 @@
+package com.simformsolutions.practicals.thread;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ThreadExtend thOne = new ThreadExtend();
+		ThreadExtend thTwo = new ThreadExtend();
+		ThreadExtend thThree = new ThreadExtend();
+		thOne.start();
+		thTwo.start();
+		thThree.start();
+		
+	}
+
+}
+

@@ -1,0 +1,4 @@
+package com.simformsolutions.practicals.overriding;
+class Animal{
+	
+}

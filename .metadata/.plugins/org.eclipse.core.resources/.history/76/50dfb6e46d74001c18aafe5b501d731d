@@ -1,0 +1,10 @@
+package com.simformsolutions.practicals.keywordstatic;
+
+class Main
+{
+	public static void main(String[] args)
+	{
+		System.out.println(First.greet);
+		First.greeting();
+	}
+}

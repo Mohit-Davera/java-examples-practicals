@@ -1,0 +1,8 @@
+package com.simformsolutions.practical.abstraction;
+
+public interface Loan
+{ 
+  float pi = 3.14f; // Constant declaration. 
+  float calculateArea(float x, float y);
+  
+} 

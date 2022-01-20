@@ -1,0 +1,16 @@
+package com.simformsolutions.practicals.time;
+
+import java.time.*;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		LocalDate date = LocalDate.now();
+		LocalTime time = LocalTime.now();
+		
+		System.out.println("Today : "+date + "Time: "+time);
+		System.out.println("Tommorow : "+date.plusDays(1));
+		System.out.println("Today : "+date.minusDays(1));
+	}
+
+}

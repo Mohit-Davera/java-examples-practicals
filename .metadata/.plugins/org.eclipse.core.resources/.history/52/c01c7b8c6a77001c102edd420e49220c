@@ -1,0 +1,11 @@
+package com.simformsolutions.practical.abstraction;
+
+class Implementor implements MyInterface{
+	public void sayHello(String name) {
+		System.out.println("Hello "+name);
+	}
+	
+	public void sayGoodBye() {
+		System.out.println("GoodBye");
+	}
+}

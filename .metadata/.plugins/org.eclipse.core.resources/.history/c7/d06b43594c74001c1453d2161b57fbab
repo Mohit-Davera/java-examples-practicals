@@ -1,0 +1,11 @@
+package com.simformsolutions.practicals.overriding;
+class Animal{
+	void static eat() {
+		System.out.println("ANimal Eating");
+	}
+}
+class Dog{
+	void static eat() {
+		System.out.println("Dog Eating");
+	}
+}

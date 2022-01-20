@@ -1,0 +1,20 @@
+package com.simformsolutions.practicals.thread;
+
+public class ThreadExtend extends Thread {
+		
+	int 	counter=0;
+		@Override
+    public void run()
+    {
+		counter++;
+        try {
+            System.out.println(
+                "Thread " + Thread.currentThread().getId()
+                + " is running");
+        }
+        catch (Exception e) {
+            System.out.println("Exception is caught");
+        }
+    }
+}
+

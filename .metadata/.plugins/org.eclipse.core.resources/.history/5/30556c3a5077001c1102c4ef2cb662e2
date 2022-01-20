@@ -1,0 +1,15 @@
+package com.simformsolutions.practicals.lambda;
+
+interface Sayable{  
+    void greet(String message);  
+}  
+  
+public class Main{  
+    public static void main(String[] args) {  
+       
+        Sayable person = (message)-> {  
+        	System.out.println("Hello "+message);
+        };  
+        person.greet("Mohit");
+    }  
+}  

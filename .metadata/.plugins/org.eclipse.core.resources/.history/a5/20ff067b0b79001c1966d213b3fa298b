@@ -1,0 +1,18 @@
+package com.simformsolutions.practicals.exception;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		try {
+			System.out.println("In try Block");
+			
+		}
+		catch(Exception e){
+			System.out.println("Generic Exception"+e);
+		}
+		finally {}
+
+	}
+
+}

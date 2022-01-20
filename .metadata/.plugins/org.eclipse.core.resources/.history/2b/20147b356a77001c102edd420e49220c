@@ -1,0 +1,6 @@
+package com.simformsolutions.practical.abstraction;
+
+public interface Radio {
+	void sayHello(String name);
+	void sayGoodBye();
+}

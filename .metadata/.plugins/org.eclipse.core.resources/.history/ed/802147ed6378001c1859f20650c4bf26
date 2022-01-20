@@ -1,0 +1,10 @@
+package com.simformsolutions.practicals.thread;
+
+public class ThreadImplements  implements new Runnable() {
+	@Override
+	public void run() {
+		
+	}
+}{
+
+}

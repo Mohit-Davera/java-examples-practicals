@@ -1,0 +1,20 @@
+package com.simformsolutions.practicals.stringb;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String greet = "Hello World";
+		StringBuffer sf = new StringBuffer("String Buffer");
+		StringBuilder sb = new StringBuilder("String Builder ");
+		
+		for(int i=0 ; i<5 ; i++) {
+			String line = "This is Line "+String.valueOf(i);
+			sf.append("\nString Buffer "+line);
+			sb.append("\nString Builder "+line);
+		}
+		System.out.println("Old String: "+greet+"\nNew String: "+greet.toUpperCase().trim());
+		System.out.println("String Buffer: "+greet+"\nNew String: "+greet.toUpperCase().trim());
+		System.out.println("String Builder: "+greet+"\nNew String: "+greet.toUpperCase().trim());
+	}
+
+}

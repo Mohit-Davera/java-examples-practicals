@@ -1,0 +1,15 @@
+package com.simformsolutions.practicals.execption;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		try {
+			System.out.println("In try Block");
+		}
+		catch{}
+		finally {}
+
+	}
+
+}

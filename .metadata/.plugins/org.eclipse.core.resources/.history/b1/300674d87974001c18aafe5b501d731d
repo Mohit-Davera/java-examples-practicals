@@ -1,0 +1,9 @@
+package com.simformsolutions.practical.main;
+class EnumExample1{  
+	
+	enum Medals { GOLD , SILVER , BRONZE  }  
+	public static void main(String[] args) {  
+			for (Medals m : Medals.values())  
+				System.out.println(m);  
+		}
+}  

@@ -1,0 +1,12 @@
+package com.simformsolutions.practicals.concurrency;
+
+import java.time.*;
+public class Task implements Runnable {
+	LocalTime time = LocalTime.now();
+	@Override
+	public void run() {
+		LocalTime time = LocalTime.now();
+		System.out.println(time);
+		
+	}
+}

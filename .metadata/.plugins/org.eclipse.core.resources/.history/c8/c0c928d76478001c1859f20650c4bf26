@@ -1,0 +1,18 @@
+package com.simformsolutions.practicals.thread;
+
+public class ThreadImplements  implements Runnable {
+	@Override
+	public void run() {
+		try {
+			String Name = Thread.currentThread().getName();
+			long Id = Thread.currentThread().getId();
+			int Priority = Thread.currentThread().getPriority();
+			
+            System.out.println(Name+" "+Id +" "+ Priority());
+        }
+        catch (Exception e) {
+            System.out.println("Exception is caught");
+        }
+		
+	}
+}

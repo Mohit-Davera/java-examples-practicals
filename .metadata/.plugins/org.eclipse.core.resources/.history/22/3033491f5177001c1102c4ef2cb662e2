@@ -1,0 +1,15 @@
+package com.simformsolutions.practicals.lambda;
+
+interface Greets{  
+    void greet(String message);  
+}  
+  
+public class Main{  
+    public static void main(String[] args) {  
+       
+        Greets s = (message)-> {  
+        	System.out.println("Hello "+message);
+        };  
+        s.greet("Mohit");
+    }  
+}  

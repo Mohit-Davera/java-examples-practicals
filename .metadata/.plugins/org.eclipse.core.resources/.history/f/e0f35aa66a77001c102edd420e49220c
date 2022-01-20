@@ -1,0 +1,7 @@
+package com.simformsolutions.practical.abstraction;
+
+public interface Area 
+{ 
+  float pi = 3.14f; // Constant declaration. 
+  float calculateArea(float x, float y); 
+ } 

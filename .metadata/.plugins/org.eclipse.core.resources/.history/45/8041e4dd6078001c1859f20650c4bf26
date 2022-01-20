@@ -1,0 +1,18 @@
+package com.simformsolutions.practicals.thread;
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		ThreadExtend thOne = new ThreadExtend();
+		ThreadExtend thTwo = new ThreadExtend();
+		ThreadExtend thThree = new ThreadExtend();
+		ThreadExtend thFour = new ThreadExtend();
+		thOne.start();
+		thTwo.start();
+		thThree.start();
+		
+	}
+
+}
+

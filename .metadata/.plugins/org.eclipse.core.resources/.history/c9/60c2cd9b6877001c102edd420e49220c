@@ -1,0 +1,8 @@
+package com.simformsolutions.practical.abstraction;
+
+public interface MyInterface {
+	void sayHello(String name);
+	void sayGoodBye();
+}
+
+interface Inter2 extends MyInterface

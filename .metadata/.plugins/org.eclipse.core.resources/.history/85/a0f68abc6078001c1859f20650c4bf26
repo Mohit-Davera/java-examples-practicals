@@ -1,0 +1,19 @@
+package com.simformsolutions.practicals.thread;
+
+public class ThreadExtend extends Thread {
+		
+	int counter;
+	@Override
+    public void run()
+    {
+		
+        try {
+        	counter+=1;
+            System.out.println("Counter IS "+counter);
+        }
+        catch (Exception e) {
+            System.out.println("Exception is caught");
+        }
+    }
+}
+

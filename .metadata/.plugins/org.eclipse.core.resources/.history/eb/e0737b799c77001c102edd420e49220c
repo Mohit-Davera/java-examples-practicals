@@ -1,0 +1,8 @@
+package com.simformsolutions.practical.comparable;
+
+public class Employee {
+	public int E_id;
+	public int salary;
+	public String name;
+	
+}

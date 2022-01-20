@@ -1,0 +1,13 @@
+package com.simformsolutions.practicals.keywordstatic;
+
+public class First {
+	static String greet = "Hello";
+	{
+		System.out.println("Hello World");
+		
+	}
+	final void greeting() {
+		
+	}
+
+}
